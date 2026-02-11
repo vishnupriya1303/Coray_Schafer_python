@@ -18,3 +18,12 @@ print(strr.find('nu')) #prints the index where that substr starts
 strr=strr.replace('u','a') #doesnot change inplace--have to return it and store another value
 print(strr)
 
+#concatenation
+
+print('hello '+ strr)
+
+#fstrings using placeholders
+print(f'hello {strr}!! cutieee')
+
+print(dir(strr)) #shows all attributes/methods associated to this
+print(help(strr.lower))
