@@ -17,3 +17,4 @@ print(strr.find('nu')) #prints the index where that substr starts
 
 strr=strr.replace('u','a') #doesnot change inplace--have to return it and store another value
 print(strr)
+
